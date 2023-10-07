@@ -7,6 +7,9 @@
     if(!$isIndex) header('Location: index.php');
   }
 ?>
+
+<?php include '/geolocation.php'; ?>
+
 <!DOCTYPE html>
 <html>
  <head>
@@ -105,6 +108,7 @@
       </tbody>
     </table>
   </div>
+<?php include '/geolocation.php'; ?>
 
  </body>
 </html>
