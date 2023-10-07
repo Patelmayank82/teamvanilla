@@ -40,8 +40,6 @@ if (!(array_key_exists('teacher_id', $_SESSION) && isset($_SESSION['teacher_id']
                     <li><a href="profile.php">Profile</a></li>
 
                     <li class="active"><a href="statistics.php">Statistics</a></li>
-                    <!-- <li><a href="#about">About</a></li>
-                    <li><a href="#contact">Contact</a></li> -->
                     <li><a href="logout.php">Logout</a></li>
 
                 </ul>
