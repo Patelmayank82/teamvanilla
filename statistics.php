@@ -19,12 +19,10 @@ if (!(array_key_exists('teacher_id', $_SESSION) && isset($_SESSION['teacher_id']
     <script src="js/highcharts.js"></script>
     <script src="js/highcharts-exporting.js"></script>
     <script src="js/statistics.js"></script>
-    <!-- Custom styles for this template -->
     <link href="navbar-fixed-top.css" rel="stylesheet">
 </head>
 
 <body>
-    <!-- Fixed navbar -->
     <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
             <div class="navbar-header">
@@ -42,12 +40,10 @@ if (!(array_key_exists('teacher_id', $_SESSION) && isset($_SESSION['teacher_id']
                     <li><a href="profile.php">Profile</a></li>
 
                     <li class="active"><a href="statistics.php">Statistics</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#contact">Contact</a></li>
                     <li><a href="logout.php">Logout</a></li>
 
                 </ul>
-            </div><!--/.nav-collapse -->
+            </div>
         </div>
     </nav></br></br></br></br>
 
